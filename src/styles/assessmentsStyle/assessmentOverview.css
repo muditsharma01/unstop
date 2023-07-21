@@ -1,0 +1,126 @@
+.assessment-overview {
+    margin-bottom: 5rem;
+}
+
+.assessment-overview .head {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 2rem;
+    padding-left: 0;
+    border: none;
+}
+
+.assessment-overview p {
+    font-size: 1.6rem;
+    padding: .5rem;
+}
+
+.assessment-overview .assessments {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1rem;
+    overflow-y: scroll;
+}
+
+.assessment-overview .assessments .candidate-details,
+.assessment-overview .assessments .total-assessment {
+    width: 18rem;
+    border-right: 1px solid black;
+    padding: 1rem;
+}
+
+.assessment-overview .assessments .total-assessment p:first-of-type,
+.assessment-overview .assessments .candidate-details .title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.assessment-overview .assessments .total-assessment p:last-of-type {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.assessment-overview .assessments .total-assessment p svg {
+    font-size: 4rem;
+    background-color: rgb(236, 236, 254);
+    color: blue;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+/* ------- ---- -------- ----- */
+
+.assessment-overview .assessments .candidate-details {
+    width: 38rem;
+}
+
+.assessment-overview .assessments .candidate-details .candidates {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.assessment-overview .assessments .candidate-details .candidates .total-candidate {
+    border-right: 1px solid black;
+    padding-right: 2rem;
+}
+
+.assessment-overview .assessments .candidate-details .candidates p svg {
+    font-size: 4rem;
+    background-color: rgb(236, 236, 254);
+    color: blue;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.assessment-overview .assessments .candidate-details .candidates .total-candidate p:first-of-type,
+.assessment-overview .assessments .candidate-details .candidates .who-attemped p:first-of-type {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: -.7rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.assessment-overview .assessments .candidate-details .candidates .total-candidate p:first-of-type span,
+.assessment-overview .assessments .candidate-details .candidates .who-attemped p:first-of-type span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(0, 214, 0);
+}
+
+.assessment-overview .assessments .candidate-details .candidates .total-candidate p:last-of-type,
+.assessment-overview .assessments .candidate-details .candidates .who-attemped p:last-of-type {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+/* ---- --- -- -- --- ---  */
+
+.assessment-overview .assessments .candidates-source {
+    width: 55rem;
+}
+
+.assessment-overview .assessments .candidates-source .links .social-share {
+    border-right: 1px solid black;
+    padding-right: 2rem;
+}
+
+.assessment-overview .assessments .candidates-source .links p svg {
+    background-color: rgb(255, 234, 234);
+    color: red;
+}
+
+
+/* --- ---- ---- ------ --- */
+
+.assessment-overview .assessments .total-purpose {
+    border-right: none;
+}

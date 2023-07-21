@@ -1,0 +1,92 @@
+body.active-modal {
+    overflow-y: hidden;
+    z-index: 1;
+  }
+  
+  .modal,
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .overlay {
+    background: rgba(49, 49, 49, 0.8);
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+    width: 80%;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .heading-container {
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+  }
+  
+  .name label,
+  .purpose label,
+  .Description label {
+    padding: 5px;
+  }
+  
+  .name input,
+  .purpose select,
+  .Description select,
+  .skills textarea,
+  .Duration input,
+  .Questions input {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .skills input {
+    width: auto;
+  }
+  
+  .name,
+  .purpose,
+  .Description,
+  .skills,
+  .Duration,
+  .Questions {
+    padding-bottom: 20px;
+  }
+  
+  .save-btn {
+    text-align: right;
+  }
+  

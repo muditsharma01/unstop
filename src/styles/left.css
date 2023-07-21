@@ -1,0 +1,44 @@
+.left {
+    width: 15rem;
+    text-align: center;
+    padding: 1rem 2.5rem;
+    background-color: #fff;
+}
+
+.left .dashboard,
+.left .my-library,
+.left .round-status {
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.left .my-library {
+    border-bottom: 1px dashed gray;
+}
+
+.left .dashboard p:first-of-type,
+.left .my-library p:first-of-type,
+.left .assessment p:first-of-type,
+.left .round-status p:first-of-type {
+    font-size: 1.7rem;
+}
+
+.left .assessment {
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: rgb(0, 102, 255);
+    background-color: rgb(228, 241, 255);
+    border: 1.5px solid rgb(0, 102, 255);
+    border-radius: 5px;
+}
+
+.left button {
+    font-size: 1.1rem;
+    padding: .1rem .5rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    color: rgb(255, 30, 0);
+    background-color: rgb(255, 236, 230);
+    border: 1.5px solid rgb(255, 30, 0);
+    border-radius: 2rem;
+}
